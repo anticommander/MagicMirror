@@ -1,0 +1,343 @@
+
+> magicmirror@2.20.0 start
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[11.09.2022 16:46.02.381] [LOG]   Starting MagicMirror: v2.20.0
+[11.09.2022 16:46.02.388] [LOG]   Loading config ...
+[11.09.2022 16:46.02.393] [ERROR] [31mWARNING! Could not find config file. Please create one. Starting with default configuration.[39m
+[11.09.2022 16:46.02.395] [LOG]   Loading module helpers ...
+[11.09.2022 16:46.02.410] [LOG]   Initializing new module helper ...
+[11.09.2022 16:46.02.412] [LOG]   Module helper loaded: updatenotification
+[11.09.2022 16:46.02.413] [LOG]   No helper found for module: helloworld.
+[11.09.2022 16:46.02.414] [LOG]   All module helpers loaded.
+[11.09.2022 16:46.02.526] [LOG]   Starting server on port 8080 ... 
+[11.09.2022 16:46.02.541] [LOG]   Server started ...
+[11.09.2022 16:46.02.543] [LOG]   Connecting socket for: updatenotification
+[11.09.2022 16:46.02.544] [LOG]   Starting module helper: updatenotification
+[11.09.2022 16:46.02.544] [LOG]   Sockets connected & modules started ...
+[11.09.2022 16:46.02.779] [LOG]   Launching application.
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to open kms_swrast: /usr/lib/dri/kms_swrast_dri.so: cannot open shared object file: Permission denied (search paths /usr/lib/arm-linux-gnueabihf/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+failed to load driver: kms_swrast
+MESA-LOADER: failed to open swrast: /usr/lib/dri/swrast_dri.so: cannot open shared object file: Permission denied (search paths /usr/lib/arm-linux-gnueabihf/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+failed to load swrast driver
+[11.09.2022 16:46.05.494] [INFO]  Checking git for module: default
+
+> magicmirror@2.20.0 start
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[11.09.2022 16:48.00.889] [LOG]   Starting MagicMirror: v2.20.0
+[11.09.2022 16:48.00.899] [LOG]   Loading config ...
+[11.09.2022 16:48.00.909] [LOG]   Loading module helpers ...
+[11.09.2022 16:48.00.912] [LOG]   No helper found for module: alert.
+[11.09.2022 16:48.00.934] [LOG]   Initializing new module helper ...
+[11.09.2022 16:48.00.936] [LOG]   Module helper loaded: updatenotification
+[11.09.2022 16:48.00.937] [LOG]   No helper found for module: clock.
+[11.09.2022 16:48.01.140] [LOG]   Initializing new module helper ...
+[11.09.2022 16:48.01.141] [LOG]   Module helper loaded: calendar
+[11.09.2022 16:48.01.142] [LOG]   No helper found for module: compliments.
+[11.09.2022 16:48.01.143] [LOG]   No helper found for module: weather.
+[11.09.2022 16:48.01.165] [LOG]   Initializing new module helper ...
+[11.09.2022 16:48.01.166] [LOG]   Module helper loaded: newsfeed
+[11.09.2022 16:48.01.167] [LOG]   All module helpers loaded.
+[11.09.2022 16:48.01.296] [LOG]   Starting server on port 8080 ... 
+[11.09.2022 16:48.01.311] [LOG]   Server started ...
+[11.09.2022 16:48.01.312] [LOG]   Connecting socket for: updatenotification
+[11.09.2022 16:48.01.313] [LOG]   Starting module helper: updatenotification
+[11.09.2022 16:48.01.314] [LOG]   Connecting socket for: calendar
+[11.09.2022 16:48.01.315] [LOG]   Starting node helper for: calendar
+[11.09.2022 16:48.01.315] [LOG]   Connecting socket for: newsfeed
+[11.09.2022 16:48.01.316] [LOG]   Starting node helper for: newsfeed
+[11.09.2022 16:48.01.316] [LOG]   Sockets connected & modules started ...
+[11.09.2022 16:48.01.525] [ERROR] Whoops! There was an uncaught exception...
+[11.09.2022 16:48.01.532] [ERROR] Error: listen EADDRINUSE: address already in use 127.0.0.1:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (node:net:1516:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:73:8) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '127.0.0.1',
+  port: 8080
+}
+[11.09.2022 16:48.01.533] [ERROR] MagicMirror² will not quit, but it might be a good idea to check why this happened. Maybe no internet connection?
+[11.09.2022 16:48.01.534] [ERROR] If you think this really is an issue, please open an issue on GitHub: https://github.com/MichMich/MagicMirror/issues
+[11.09.2022 16:48.01.555] [LOG]   Launching application.
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to open kms_swrast: /usr/lib/dri/kms_swrast_dri.so: cannot open shared object file: Permission denied (search paths /usr/lib/arm-linux-gnueabihf/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+failed to load driver: kms_swrast
+MESA-LOADER: failed to open swrast: /usr/lib/dri/swrast_dri.so: cannot open shared object file: Permission denied (search paths /usr/lib/arm-linux-gnueabihf/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+failed to load swrast driver
+[11.09.2022 16:53.17.856] [LOG]   Shutting down server...
+[11.09.2022 16:53.17.859] [LOG]   Stopping module helper: updatenotification
+[2278:0911/165317.955514:ERROR:command_buffer_proxy_impl.cc(329)] GPU state invalid after WaitForGetOffsetInRange.
+[2278:0911/165318.039917:ERROR:network_service_instance_impl.cc(470)] Network service crashed, restarting service.
+[2278:0911/165318.058243:ERROR:zygote_communication_linux.cc(275)] Failed to send GetTerminationStatus message to zygote
+[2278:0911/165318.085485:ERROR:zygote_communication_linux.cc(275)] Failed to send GetTerminationStatus message to zygote
+[2278:0911/165318.143520:ERROR:gpu_process_host.cc(968)] GPU process launch failed: error_code=1002
+[2278:0911/165318.148822:ERROR:gpu_process_host.cc(968)] GPU process launch failed: error_code=1002
+[2278:0911/165318.151622:ERROR:gpu_process_host.cc(968)] GPU process launch failed: error_code=1002
+[2278:0911/165318.155164:ERROR:gpu_process_host.cc(968)] GPU process launch failed: error_code=1002
+[2278:0911/165318.158225:ERROR:gpu_process_host.cc(968)] GPU process launch failed: error_code=1002
+[2278:0911/165318.160789:ERROR:gpu_process_host.cc(968)] GPU process launch failed: error_code=1002
+[2278:0911/165318.163430:ERROR:gpu_process_host.cc(968)] GPU process launch failed: error_code=1002
+
+> magicmirror@2.20.0 start
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[11.09.2022 16:57.57.183] [LOG]   Starting MagicMirror: v2.20.0
+[11.09.2022 16:57.57.191] [LOG]   Loading config ...
+[11.09.2022 16:57.57.200] [LOG]   Loading module helpers ...
+[11.09.2022 16:57.57.203] [LOG]   No helper found for module: alert.
+[11.09.2022 16:57.57.223] [LOG]   Initializing new module helper ...
+[11.09.2022 16:57.57.225] [LOG]   Module helper loaded: updatenotification
+[11.09.2022 16:57.57.226] [LOG]   No helper found for module: clock.
+[11.09.2022 16:57.57.550] [LOG]   Initializing new module helper ...
+[11.09.2022 16:57.57.551] [LOG]   Module helper loaded: calendar
+[11.09.2022 16:57.57.553] [LOG]   No helper found for module: compliments.
+[11.09.2022 16:57.57.555] [LOG]   No helper found for module: weather.
+[11.09.2022 16:57.57.594] [LOG]   Initializing new module helper ...
+[11.09.2022 16:57.57.595] [LOG]   Module helper loaded: newsfeed
+[11.09.2022 16:57.57.596] [LOG]   All module helpers loaded.
+[11.09.2022 16:57.57.826] [LOG]   Starting server on port 8080 ... 
+[11.09.2022 16:57.57.848] [LOG]   Server started ...
+[11.09.2022 16:57.57.849] [LOG]   Connecting socket for: updatenotification
+[11.09.2022 16:57.57.850] [LOG]   Starting module helper: updatenotification
+[11.09.2022 16:57.57.850] [LOG]   Connecting socket for: calendar
+[11.09.2022 16:57.57.851] [LOG]   Starting node helper for: calendar
+[11.09.2022 16:57.57.852] [LOG]   Connecting socket for: newsfeed
+[11.09.2022 16:57.57.852] [LOG]   Starting node helper for: newsfeed
+[11.09.2022 16:57.57.853] [LOG]   Sockets connected & modules started ...
+[11.09.2022 16:57.58.395] [LOG]   Launching application.
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to open kms_swrast: /usr/lib/dri/kms_swrast_dri.so: cannot open shared object file: Permission denied (search paths /usr/lib/arm-linux-gnueabihf/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+failed to load driver: kms_swrast
+MESA-LOADER: failed to open swrast: /usr/lib/dri/swrast_dri.so: cannot open shared object file: Permission denied (search paths /usr/lib/arm-linux-gnueabihf/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+failed to load swrast driver
+[11.09.2022 16:58.01.971] [LOG]   Create new calendarfetcher for url: http://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics - Interval: 300000
+[11.09.2022 16:58.02.007] [LOG]   Create new newsfetcher for url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+[11.09.2022 16:58.02.049] [INFO]  Checking git for module: default
+[11.09.2022 16:58.02.535] [INFO]  Newsfeed-Fetcher: Broadcasting 38 items.
+[11.09.2022 16:58.02.739] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+
+> magicmirror@2.20.0 start
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[11.09.2022 17:00.31.771] [LOG]   Starting MagicMirror: v2.20.0
+[11.09.2022 17:00.31.784] [LOG]   Loading config ...
+[11.09.2022 17:00.31.797] [LOG]   Loading module helpers ...
+[11.09.2022 17:00.31.801] [LOG]   No helper found for module: alert.
+[11.09.2022 17:00.31.820] [LOG]   Initializing new module helper ...
+[11.09.2022 17:00.31.822] [LOG]   Module helper loaded: updatenotification
+[11.09.2022 17:00.31.824] [LOG]   No helper found for module: clock.
+[11.09.2022 17:00.32.088] [LOG]   Initializing new module helper ...
+[11.09.2022 17:00.32.090] [LOG]   Module helper loaded: calendar
+[11.09.2022 17:00.32.091] [LOG]   No helper found for module: compliments.
+[11.09.2022 17:00.32.093] [LOG]   No helper found for module: weather.
+[11.09.2022 17:00.32.120] [LOG]   Initializing new module helper ...
+[11.09.2022 17:00.32.121] [LOG]   Module helper loaded: newsfeed
+[11.09.2022 17:00.32.122] [LOG]   All module helpers loaded.
+[11.09.2022 17:00.32.310] [LOG]   Starting server on port 8080 ... 
+[11.09.2022 17:00.32.324] [LOG]   Server started ...
+[11.09.2022 17:00.32.326] [LOG]   Connecting socket for: updatenotification
+[11.09.2022 17:00.32.326] [LOG]   Starting module helper: updatenotification
+[11.09.2022 17:00.32.327] [LOG]   Connecting socket for: calendar
+[11.09.2022 17:00.32.328] [LOG]   Starting node helper for: calendar
+[11.09.2022 17:00.32.329] [LOG]   Connecting socket for: newsfeed
+[11.09.2022 17:00.32.330] [LOG]   Starting node helper for: newsfeed
+[11.09.2022 17:00.32.330] [LOG]   Sockets connected & modules started ...
+[11.09.2022 17:00.32.339] [ERROR] Whoops! There was an uncaught exception...
+[11.09.2022 17:00.32.348] [ERROR] Error: listen EADDRINUSE: address already in use 0.0.0.0:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at doListen (node:net:1516:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8080
+}
+[11.09.2022 17:00.32.349] [ERROR] MagicMirror² will not quit, but it might be a good idea to check why this happened. Maybe no internet connection?
+[11.09.2022 17:00.32.349] [ERROR] If you think this really is an issue, please open an issue on GitHub: https://github.com/MichMich/MagicMirror/issues
+[11.09.2022 17:00.32.615] [LOG]   Launching application.
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to open kms_swrast: /usr/lib/dri/kms_swrast_dri.so: cannot open shared object file: Permission denied (search paths /usr/lib/arm-linux-gnueabihf/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+failed to load driver: kms_swrast
+MESA-LOADER: failed to open swrast: /usr/lib/dri/swrast_dri.so: cannot open shared object file: Permission denied (search paths /usr/lib/arm-linux-gnueabihf/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+failed to load swrast driver
+[11.09.2022 17:00.36.909] [LOG]   Use existing calendarfetcher for url: http://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics
+[11.09.2022 17:00.36.911] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 17:00.36.961] [LOG]   Use existing newsfetcher for url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+[11.09.2022 17:00.36.964] [INFO]  Newsfeed-Fetcher: Broadcasting 38 items.
+[11.09.2022 17:00.37.334] [INFO]  Newsfeed-Fetcher: Broadcasting 38 items.
+[11.09.2022 17:00.37.442] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 17:01.53.471] [LOG]   Shutting down server...
+[11.09.2022 17:01.53.479] [LOG]   Stopping module helper: updatenotification
+[11.09.2022 17:01.53.483] [LOG]   Stopping module helper: calendar
+[11.09.2022 17:01.53.614] [LOG]   Stopping module helper: newsfeed
+[1448:0911/170153.635681:ERROR:command_buffer_proxy_impl.cc(329)] GPU state invalid after WaitForGetOffsetInRange.
+[11.09.2022 17:01.53.709] [LOG]   Shutting down server...
+[11.09.2022 17:01.53.712] [LOG]   Stopping module helper: updatenotification
+[11.09.2022 17:01.53.713] [LOG]   Stopping module helper: calendar
+[11.09.2022 17:01.53.713] [LOG]   Stopping module helper: newsfeed
+[1448:0911/170153.719024:ERROR:zygote_communication_linux.cc(275)] Failed to send GetTerminationStatus message to zygote
+[1595:0911/170153.758726:ERROR:command_buffer_proxy_impl.cc(329)] GPU state invalid after WaitForGetOffsetInRange.
+
+> magicmirror@2.20.0 start
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[11.09.2022 17:02.49.578] [LOG]   Starting MagicMirror: v2.20.0
+[11.09.2022 17:02.49.586] [LOG]   Loading config ...
+[11.09.2022 17:02.49.596] [LOG]   Loading module helpers ...
+[11.09.2022 17:02.49.599] [LOG]   No helper found for module: alert.
+[11.09.2022 17:02.49.620] [LOG]   Initializing new module helper ...
+[11.09.2022 17:02.49.622] [LOG]   Module helper loaded: updatenotification
+[11.09.2022 17:02.49.623] [LOG]   No helper found for module: clock.
+[11.09.2022 17:02.49.950] [LOG]   Initializing new module helper ...
+[11.09.2022 17:02.49.951] [LOG]   Module helper loaded: calendar
+[11.09.2022 17:02.49.953] [LOG]   No helper found for module: compliments.
+[11.09.2022 17:02.49.955] [LOG]   No helper found for module: weather.
+[11.09.2022 17:02.49.995] [LOG]   Initializing new module helper ...
+[11.09.2022 17:02.49.995] [LOG]   Module helper loaded: newsfeed
+[11.09.2022 17:02.49.996] [LOG]   All module helpers loaded.
+[11.09.2022 17:02.50.197] [LOG]   Starting server on port 8080 ... 
+[11.09.2022 17:02.50.211] [LOG]   Server started ...
+[11.09.2022 17:02.50.212] [LOG]   Connecting socket for: updatenotification
+[11.09.2022 17:02.50.213] [LOG]   Starting module helper: updatenotification
+[11.09.2022 17:02.50.213] [LOG]   Connecting socket for: calendar
+[11.09.2022 17:02.50.214] [LOG]   Starting node helper for: calendar
+[11.09.2022 17:02.50.215] [LOG]   Connecting socket for: newsfeed
+[11.09.2022 17:02.50.215] [LOG]   Starting node helper for: newsfeed
+[11.09.2022 17:02.50.216] [LOG]   Sockets connected & modules started ...
+[11.09.2022 17:02.50.772] [LOG]   Launching application.
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to open kms_swrast: /usr/lib/dri/kms_swrast_dri.so: cannot open shared object file: Permission denied (search paths /usr/lib/arm-linux-gnueabihf/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+failed to load driver: kms_swrast
+MESA-LOADER: failed to open swrast: /usr/lib/dri/swrast_dri.so: cannot open shared object file: Permission denied (search paths /usr/lib/arm-linux-gnueabihf/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+failed to load swrast driver
+[11.09.2022 17:02.53.838] [LOG]   Create new calendarfetcher for url: http://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics - Interval: 300000
+[11.09.2022 17:02.53.895] [LOG]   Create new newsfetcher for url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+[11.09.2022 17:02.53.968] [INFO]  Checking git for module: default
+[11.09.2022 17:02.54.427] [INFO]  Newsfeed-Fetcher: Broadcasting 38 items.
+[11.09.2022 17:02.54.620] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 17:03.16.639] [LOG]   Access denied to IP address: 192.168.0.29
+[11.09.2022 17:03.16.733] [LOG]   Access denied to IP address: 192.168.0.29
+[11.09.2022 17:03.45.925] [LOG]   Shutting down server...
+[11.09.2022 17:03.45.927] [LOG]   Stopping module helper: updatenotification
+[11.09.2022 17:03.45.928] [LOG]   Stopping module helper: calendar
+[11.09.2022 17:03.45.929] [LOG]   Stopping module helper: newsfeed
+
+> magicmirror@2.20.0 start
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[11.09.2022 17:03.50.494] [LOG]   Starting MagicMirror: v2.20.0
+[11.09.2022 17:03.50.502] [LOG]   Loading config ...
+[11.09.2022 17:03.50.509] [LOG]   Loading module helpers ...
+[11.09.2022 17:03.50.511] [LOG]   No helper found for module: alert.
+[11.09.2022 17:03.50.526] [LOG]   Initializing new module helper ...
+[11.09.2022 17:03.50.528] [LOG]   Module helper loaded: updatenotification
+[11.09.2022 17:03.50.529] [LOG]   No helper found for module: clock.
+[11.09.2022 17:03.50.725] [LOG]   Initializing new module helper ...
+[11.09.2022 17:03.50.726] [LOG]   Module helper loaded: calendar
+[11.09.2022 17:03.50.727] [LOG]   No helper found for module: compliments.
+[11.09.2022 17:03.50.729] [LOG]   No helper found for module: weather.
+[11.09.2022 17:03.50.750] [LOG]   Initializing new module helper ...
+[11.09.2022 17:03.50.751] [LOG]   Module helper loaded: newsfeed
+[11.09.2022 17:03.50.751] [LOG]   All module helpers loaded.
+[11.09.2022 17:03.50.867] [LOG]   Starting server on port 8080 ... 
+[11.09.2022 17:03.50.873] [WARN]  [33mYou're using a full whitelist configuration to allow for all IPs[39m
+[11.09.2022 17:03.50.879] [LOG]   Server started ...
+[11.09.2022 17:03.50.880] [LOG]   Connecting socket for: updatenotification
+[11.09.2022 17:03.50.881] [LOG]   Starting module helper: updatenotification
+[11.09.2022 17:03.50.882] [LOG]   Connecting socket for: calendar
+[11.09.2022 17:03.50.882] [LOG]   Starting node helper for: calendar
+[11.09.2022 17:03.50.883] [LOG]   Connecting socket for: newsfeed
+[11.09.2022 17:03.50.883] [LOG]   Starting node helper for: newsfeed
+[11.09.2022 17:03.50.884] [LOG]   Sockets connected & modules started ...
+[11.09.2022 17:03.51.122] [LOG]   Launching application.
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to open kms_swrast: /usr/lib/dri/kms_swrast_dri.so: cannot open shared object file: Permission denied (search paths /usr/lib/arm-linux-gnueabihf/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+failed to load driver: kms_swrast
+MESA-LOADER: failed to open swrast: /usr/lib/dri/swrast_dri.so: cannot open shared object file: Permission denied (search paths /usr/lib/arm-linux-gnueabihf/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+failed to load swrast driver
+[11.09.2022 17:03.54.219] [LOG]   Create new calendarfetcher for url: http://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics - Interval: 300000
+[11.09.2022 17:03.54.342] [LOG]   Create new newsfetcher for url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+[11.09.2022 17:03.54.375] [INFO]  Checking git for module: default
+[11.09.2022 17:03.54.895] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 17:03.54.935] [INFO]  Newsfeed-Fetcher: Broadcasting 38 items.
+[11.09.2022 17:03.55.628] [LOG]   Use existing calendarfetcher for url: http://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics
+[11.09.2022 17:03.55.629] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 17:03.55.641] [LOG]   Use existing newsfetcher for url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+[11.09.2022 17:03.55.644] [INFO]  Newsfeed-Fetcher: Broadcasting 38 items.
+[11.09.2022 17:03.55.868] [INFO]  Newsfeed-Fetcher: Broadcasting 38 items.
+[11.09.2022 17:03.56.051] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+/home/pi/MagicMirror/node_modules/electron/dist/electron exited with signal SIGINT
+
+> magicmirror@2.20.0 start
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[11.09.2022 17:08.57.097] [LOG]   Starting MagicMirror: v2.20.0
+[11.09.2022 17:08.57.105] [LOG]   Loading config ...
+[11.09.2022 17:08.57.112] [LOG]   Loading module helpers ...
+[11.09.2022 17:08.57.114] [LOG]   No helper found for module: alert.
+[11.09.2022 17:08.57.130] [LOG]   Initializing new module helper ...
+[11.09.2022 17:08.57.131] [LOG]   Module helper loaded: updatenotification
+[11.09.2022 17:08.57.132] [LOG]   No helper found for module: clock.
+[11.09.2022 17:08.57.329] [LOG]   Initializing new module helper ...
+[11.09.2022 17:08.57.330] [LOG]   Module helper loaded: calendar
+[11.09.2022 17:08.57.331] [LOG]   No helper found for module: compliments.
+[11.09.2022 17:08.57.332] [LOG]   No helper found for module: weather.
+[11.09.2022 17:08.57.333] [LOG]   All module helpers loaded.
+[11.09.2022 17:08.57.448] [LOG]   Starting server on port 8080 ... 
+[11.09.2022 17:08.57.454] [WARN]  [33mYou're using a full whitelist configuration to allow for all IPs[39m
+[11.09.2022 17:08.57.461] [LOG]   Server started ...
+[11.09.2022 17:08.57.462] [LOG]   Connecting socket for: updatenotification
+[11.09.2022 17:08.57.463] [LOG]   Starting module helper: updatenotification
+[11.09.2022 17:08.57.463] [LOG]   Connecting socket for: calendar
+[11.09.2022 17:08.57.464] [LOG]   Starting node helper for: calendar
+[11.09.2022 17:08.57.465] [LOG]   Sockets connected & modules started ...
+[11.09.2022 17:08.57.689] [LOG]   Launching application.
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to retrieve device information
+MESA-LOADER: failed to open kms_swrast: /usr/lib/dri/kms_swrast_dri.so: cannot open shared object file: Permission denied (search paths /usr/lib/arm-linux-gnueabihf/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+failed to load driver: kms_swrast
+MESA-LOADER: failed to open swrast: /usr/lib/dri/swrast_dri.so: cannot open shared object file: Permission denied (search paths /usr/lib/arm-linux-gnueabihf/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+failed to load swrast driver
+[11.09.2022 17:09.00.837] [LOG]   Create new calendarfetcher for url: http://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics - Interval: 300000
+[11.09.2022 17:09.00.867] [INFO]  Checking git for module: default
+[11.09.2022 17:09.01.400] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 17:14.01.850] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 17:19.02.245] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 17:24.02.678] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 17:29.03.088] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 17:34.03.618] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 17:39.04.032] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 17:44.04.470] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 17:49.04.885] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 17:54.05.323] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 17:59.05.767] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 18:04.06.165] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 18:09.06.606] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 18:14.07.091] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 18:19.07.508] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 18:24.08.024] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 18:29.08.477] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 18:34.08.994] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 18:39.09.403] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 18:44.09.893] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
+[11.09.2022 18:49.10.329] [INFO]  Calendar-Fetcher: Broadcasting 5 events.
