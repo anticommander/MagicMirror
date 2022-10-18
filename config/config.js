@@ -193,7 +193,7 @@ let config = {
                 updateInterval: 99999999999999, // rotate URLs every 30 seconds
                 width: "1920", // width of iframe
                 height: "1140", // height of iframe
-                frameWidth: "590" // width of embedded iframe, height is beeing calculated by aspect ratio of iframe
+                frameWidth: "580" // width of embedded iframe, height is beeing calculated by aspect ratio of iframe
             }
         },
         {

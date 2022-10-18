@@ -16,8 +16,8 @@ body {
 }
 
 .time-weather-container {
-    top:20px;
-    left:20px;
+    top:40px;
+    left:25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,8 +41,8 @@ body {
 }
 
 .month-calendar-container {
-    top: 20px;
-    right: 20px;
+    top: 40px;
+    right: 25px;
     background-image: url("/css/4032-3024-max.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,8 +59,8 @@ body {
 }
 
 .week-calendar-container {
-    top: 600px;
-    left: 20px;
+    top: 595px;
+    left: 25px;
     width: 580px;
 }
 
@@ -73,8 +73,8 @@ body {
 }
 
 .blue-iris-container {
-    top: 230px;
-    left: 20px;
+    top: 240px;
+    left: 25px;
 }
 
 /* html {
