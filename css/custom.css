@@ -1,0 +1,223 @@
+body {
+    cursor: default;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+
+.absolute-container {
+    position: absolute;
+}
+
+.absolute-container .module {
+    margin-bottom: 0;
+}
+
+.time-weather-container {
+    top:20px;
+    left:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-weather .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 0 15px;
+    margin-bottom: 5px;
+}
+
+.time-weather.left {
+    text-align: center;
+}
+
+.time-weather .clockGrid .clockCircle {
+    display: none;
+}
+
+.month-calendar-container {
+    top: 20px;
+    right: 20px;
+    background-image: url("/css/4032-3024-max.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.month-calendar.main {
+    position: relative;
+    width: 1275px;
+}
+
+.week-calendar.main {
+    position: relative;
+}
+
+.week-calendar-container {
+    top: 600px;
+    left: 20px;
+    width: 580px;
+}
+
+.week-calendar-container .eventTime {
+    display: none;
+}
+
+.week-calendar-container .slotContent .event {
+    max-width: unset;
+}
+
+.blue-iris-container {
+    top: 230px;
+    left: 20px;
+}
+
+/* html {
+    cursor: default;
+}
+
+body {
+    margin: 0;
+    padding: 15px 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body > .region {
+    position: relative;
+    display: flex;
+    width: unset !important;
+    padding: 0 15px;
+} */
+
+/* body > .region.top {
+    top: unset;
+}
+
+.region {
+    position: relative;
+}
+
+.region.top.left,
+.region.top.right,
+.region.top.center {
+    top: unset;
+}
+
+.region.top.right {
+    flex-grow: 1;
+}
+
+.region.upper.third,
+.region.middle.center {
+    top: unset;
+    transform: unset;
+}
+
+.region.top.center,
+.region.bottom.center {
+    left: unset;
+    transform: unset;
+}
+
+.region.lower.third {
+    top: unset;
+    margin-top: auto;
+    transform: unset;
+}
+
+.region.lower.third > .container,
+.region.middle.center > .container {
+    width: 100%;
+}
+
+.region.bottom.bar,
+.region.bottom.bar > .container {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.mmm-iframe {
+    width: 100% !important;
+}
+
+.CX2 .monthViewTitle {
+    text-align: center;
+}
+
+.CX2 .cellSlot .slotHeader {
+    flex-direction: row;
+}
+
+.CX2 .slot * {
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.CX2 .event.passed::before {
+    background: rgb(0 0 0 / 50%);
+}
+
+.CX2 .eventTitle {
+    font-weight: normal;
+}
+
+.CX2 .weekSlot .eventMain .eventTime {
+    margin-left: -3px;
+    margin-right: 3px;
+}
+
+.CX2 .weekSlot .eventMain .eventTime * {
+    font-size: 10px;
+}
+
+.CX2 .view.daily.row > .slot.daily {
+    width: unset !important;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.CX2 .view.daily.row > .slot.daily:not(:first-child) {
+    margin-left: 1px;
+}
+
+.CX2 .view.daily.row > .slot.daily:not(:last-child) {
+    margin-right: 1px;
+}
+
+.CX2 .view.daily.row .eventMain {
+    /* display:flex;
+    flex-direction: column-reverse;
+} */
+
+/* .CX2 .view.daily.row .eventMain .eventTime {
+    text-align: left;
+}
+
+.CX2 .view.daily.row .eventMain .eventTime .startTime,
+.CX2 .view.daily.row .eventMain .eventTime .endTime {
+    font-size: 10px;
+}
+
+.CX2 .view.daily.row .eventMain .eventTime .startDate {
+    display: none;
+}
+
+#module_6_MMM-Reddit-News-Ticker {
+    margin-top: 0;
+    margin-bottom: var(--gap-modules);
+}
+
+.MMM-Reddit-News-Ticker .hmove,
+.MMM-Reddit-News-Ticker .hitem {
+    width: unset;
+    display: inline-block;
+} */

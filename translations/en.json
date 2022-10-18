@@ -25,7 +25,7 @@
 	"NW": "NW",
 	"NNW": "NNW",
 
-	"FEELS": "Feels like {DEGREE}",
+	"FEELS": "{DEGREE}",
 	"PRECIP": "PoP",
 
 	"MODULE_CONFIG_CHANGED": "The configuration options for the {MODULE_NAME} module have changed.\nPlease check the documentation.",
